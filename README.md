@@ -23,15 +23,17 @@ Composer may be used to download the module and the library as follows:
 
 1. Add the following to composer.json _require_ section
   
-  `
+  ```
     "riot/riotjs": "^3.0",
     "drupal/riotjs": "^1.0"
-  `
+  ```
 
 2. Add the following to composer.json _installer-paths_ section
 (if not already added)
   
-  `"libraries/{$name}": ["type:drupal-library"]`
+  ```
+    "libraries/{$name}": ["type:drupal-library"]
+  ```
 
 3. Add the following to composer.json _repositories_ section
 (your version may differ)
@@ -52,5 +54,4 @@ Composer may be used to download the module and the library as follows:
   ```
 
 4. Open a command line terminal and navigate to the same directory as your
-composer.json file and run
-  `composer update`
+composer.json file and run `composer update`.
