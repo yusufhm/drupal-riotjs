@@ -1,0 +1,23 @@
+{
+  "name": "drupal/riotjs",
+  "description": "Adds the RiotJS library to Drupal.",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "require": {
+    "riot/riotjs": "^3.0"
+  },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "riot/riotjs",
+        "version": "3.0",
+        "type": "drupal-library",
+        "dist": {
+          "url": "https://raw.githubusercontent.com/riot/riot/master/riot.min.js",
+          "type": "file"
+        }
+      }
+    }
+  ]
+}
