@@ -14,7 +14,7 @@ INSTALLATION
 Manual
 ------
 
-  * Download the minified Riot.js file from https://raw.githubusercontent.com/riot/riot/master/riot.min.js and make sure it's accessible from /libraries/riotjs/riot.min.js. (To use Composer instead, see instructions below)
+  * Download the minified Riot.js file from https://raw.githubusercontent.com/riot/riot/master/riot.min.js and make sure it's accessible from `/libraries/riotjs/riot.min.js`. (To use Composer instead, see instructions below)
   * Download and install the module as you would normally install a contributed Drupal module. See: https://drupal.org/documentation/install/modules-themes/modules-8 for further information.
 
 Composer
