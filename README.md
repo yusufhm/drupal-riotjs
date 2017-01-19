@@ -35,7 +35,7 @@ Composer may be used to download the module and the library as follows:
 
 3. Add the following to composer.json _repositories_ section
 (your version may differ)
-  <code>
+
     {
       "type": "package",
         "package": {
@@ -48,7 +48,7 @@ Composer may be used to download the module and the library as follows:
           }
         }
     }
-  </code>
+
 
 4. Open a command line terminal and navigate to the same directory as your
 composer.json file and run
