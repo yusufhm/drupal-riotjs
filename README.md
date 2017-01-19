@@ -19,13 +19,12 @@ Manual
 
 Composer
 --------
-Composer may be used to download the module and the library as follows:
+Composer may be used to download the library as follows:
 
 1. Add the following to composer.json _require_ section
   
   ```
-    "riot/riotjs": "^3.0",
-    "drupal/riotjs": "^1.0"
+    "riot/riotjs": "^3.0"
   ```
 
 2. Add the following to composer.json _installer-paths_ section
